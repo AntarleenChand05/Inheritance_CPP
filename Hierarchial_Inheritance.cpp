@@ -12,7 +12,7 @@ public:
 
 class Department : public University {
 public:
-    string dept = "Electronics & Communication";
+    string dept = "ENTC";
     void showDept() {
         cout << "Department: " << dept << endl;
     }
@@ -20,7 +20,7 @@ public:
 
 class Hostel : public University {
 public:
-    string hostel = "Block A";
+    string hostel = "Block D";
     void showHostel() {
         cout << "Hostel: " << hostel << endl;
     }
@@ -54,7 +54,7 @@ int main() {
 // OUTPUT
 // University: Symbiosis
 // Department: ENTC
-// University: SIU
+// University: Symbiosis
 // Hostel: Block D
 // University: Symbiosis
 // Library: Central Library
